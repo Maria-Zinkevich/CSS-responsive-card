@@ -3,26 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
     <title>Responsive card</title>
 </head>
 <body>
-    <div class="wrap">
-        <div class="card">
-            <div class="card__container">
+    <div class="card">
+        <div class="card__container">
+            <div class="card__circle card__circle--left">
                 <h2 class="card__title">01</h2>
-                <p class="card__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia mollitia adipisci suscipit? Eligendi beatae magni voluptatibus natus temporibus eius facilis.</p>
-                <button class="card__card-btn">Read more</button>
             </div>
-            <div class="card__ccontainer">
+            <div class="card__content">
+                <p class="card__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia mollitia adipisci suscipit? Eligendi beatae magni voluptatibus natus temporibus eius facilis.</p>
+                <a class="card__link card__link--left" href="#">Read more</a>
+            </div>
+        </div>
+
+        <div class="card__container">
+            <div class="card__circle card__circle--middle">
                 <h2 class="card__title">02</h2>
-                <p class="card__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia mollitia adipisci suscipit? Eligendi beatae magni voluptatibus natus temporibus eius facilis.</p>
-                <button class="card__card-btn">Read more</button>
             </div>
-            <div class="card__container">
-                <h2 class="card__title">03</h2>
+            <div class="card__content">
                 <p class="card__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia mollitia adipisci suscipit? Eligendi beatae magni voluptatibus natus temporibus eius facilis.</p>
-                <button class="card__card-btn">Read more</button>
+                <a class="card__link card__link--middle" href="#">Read more</a>
+            </div>
+        </div>
+        <div class="card__container">
+            <div class="card__circle card__circle--right">
+                <h2 class="card__title">03</h2>
+            </div>
+            <div class="card__content">
+                <p class="card__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia mollitia adipisci suscipit? Eligendi beatae magni voluptatibus natus temporibus eius facilis.</p>
+                <a class="card__link card__link--right" href="#">Read more</a>
             </div>
         </div>
     </div>
