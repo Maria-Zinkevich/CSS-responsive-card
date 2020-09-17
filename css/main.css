@@ -59,7 +59,7 @@ body {
 .card__circle {
     position: relative;
     right: 10px;
-    bottom: 40px;
+    bottom: 30px;
     z-index: 5;
 
     width: 300px;
@@ -71,7 +71,7 @@ body {
 
 .card__title {
     position: relative;
-    top: 70px;
+    top: 30px;
     z-index: 10;
 
     font-size: 70px;
@@ -86,7 +86,7 @@ body {
 
 .card__text {
     padding-bottom: 30px;
-    font-size: 16px;
+    font-size: 15px;
     text-align: center;
     
     color: #696969;
